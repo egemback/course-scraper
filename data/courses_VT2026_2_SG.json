@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-10-05T16:15:09.345314",
+  "courses": [
+    {
+      "Code": "SG212X",
+      "Title": "Degree Project in Mechanics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG212X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG213X",
+      "Title": "Degree Project in Fluid Mechanics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG213X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG2211",
+      "Title": "Vehicle Aerodynamics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG2211?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG2212",
+      "Title": "Computational Fluid Dynamics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG2212?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG2215",
+      "Title": "Compressible Flow, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG2215?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG2224",
+      "Title": "Applied Computational Fluid Dynamics, 5.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG2224?startterm=VT2026&l=en",
+      "ECTS": 5.0,
+      "Subject": "SG"
+    }
+  ]
+}

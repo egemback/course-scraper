@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-10-05T15:52:17.028937",
+  "courses": [
+    {
+      "Code": "SK2004",
+      "Title": "Project course in Quantum Technology, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2004?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK2005",
+      "Title": "Project course in Optics and Photonics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2005?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK2535",
+      "Title": "Cellular Biophysics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2535?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK2536",
+      "Title": "Laboratory techniques in Life Sciences, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2536?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK2551",
+      "Title": "X-ray physics and applications, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2551?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK2712",
+      "Title": "Environmental physics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2712?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK2904",
+      "Title": "Quantum Materials, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2904?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK2907",
+      "Title": "Semiconductor Photonics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK2907?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "timestamp": "2025-10-05T15:51:39.525441",
+  "courses": [
+    {
+      "Code": "DA2215",
+      "Title": "Theory of Science and Scientific methods in Cybersecurity, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA2215?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA231X",
+      "Title": "Degree Project in Computer Science and Engineering, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA231X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA237X",
+      "Title": "Degree Project in Computer Science and Engineering, specialising in Cybersecurity, Second cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA237X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA238X",
+      "Title": "Degree Project in Computer Science and Engineering, Specialising in Sustainable  Digitalisation, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA238X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA239X",
+      "Title": "Degree Project in Computer Science and Engineering, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA239X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA240X",
+      "Title": "Degree Project in Computer Science and Engineering, specializing in Software Engineering for Distributed Systems, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA240X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA246X",
+      "Title": "Degree Project in Computer Science and Engineering, specialising in Communication Systems, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA246X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA250X",
+      "Title": "Degree Project in Computer Science and Engineering, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA250X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA256X",
+      "Title": "Degree Project in Computer Science and Engineering, specialising in ICT Innovation, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA256X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA258X",
+      "Title": "Degree Project in Computer Science and Engineering, specialising in ICT Innovation, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA258X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DD2352",
+      "Title": "Algorithms and Complexity, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2352?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2356",
+      "Title": "Methods in High Performance Computing, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2356?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2358",
+      "Title": "Introduction to High Performance Computing, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2358?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2363",
+      "Title": "Methods in Scientific Computing, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2363?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2365",
+      "Title": "Advanced Computation in Fluid Mechanics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2365?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2373",
+      "Title": "Automata and Languages, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2373?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD238U",
+      "Title": "Computer Security, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD238U?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2448",
+      "Title": "Foundations of Cryptography, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2448?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2458",
+      "Title": "Problem Solving and Programming under Pressure, 9.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2458?startterm=VT2026&l=en",
+      "ECTS": 9.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2459",
+      "Title": "Software Reliability, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2459?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2460",
+      "Title": "Software Safety and Security, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2460?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2463",
+      "Title": "Advanced Individual Course in Computer Science, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2463?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2464",
+      "Title": "Bigger Advanced, Individual Course in Computer Science, 9.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2464?startterm=VT2026&l=en",
+      "ECTS": 9.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2465",
+      "Title": "Advanced, Individual Course in Computer Science, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2465?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2466",
+      "Title": "Second Advanced, Individual Course in Computer Science, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2466?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2467",
+      "Title": "Individual Project in Theoretical Computer Science, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2467?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2480",
+      "Title": "Software Engineering Fundamentals, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2480?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2481",
+      "Title": "Principles of Programming Languages, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2481?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD249U",
+      "Title": "Project course in System Security, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD249U?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2520",
+      "Title": "Applied Cryptography, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2520?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD2525",
+      "Title": "Language-Based Security, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD2525?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "EA246X",
+      "Title": "Degree Project in Electrical Engineering, specializing in Communication Systems, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EA246X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "EA"
+    },
+    {
+      "Code": "EA256X",
+      "Title": "Degree Project in Electrical Engineering, specialising in ICT Innovation, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EA256X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "EA"
+    },
+    {
+      "Code": "EA258X",
+      "Title": "Degree Project in Electrical Engineering, specialising in ICT Innovation, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EA258X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "EA"
+    },
+    {
+      "Code": "EP2200",
+      "Title": "Queuing Theory and Teletraffic Systems, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP2200?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EP"
+    },
+    {
+      "Code": "EP2520",
+      "Title": "Building Networked Systems Security, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP2520?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EP"
+    },
+    {
+      "Code": "EP2950",
+      "Title": "Wireless Networks, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP2950?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EP"
+    },
+    {
+      "Code": "IA250X",
+      "Title": "Degree Project in Information and Communication Technology, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/IA250X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "IA"
+    },
+    {
+      "Code": "ID2203",
+      "Title": "Distributed Systems, Advanced Course, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ID2203?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ID"
+    },
+    {
+      "Code": "ID2211",
+      "Title": "Data Mining, Basic Course, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ID2211?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ID"
+    },
+    {
+      "Code": "II2210",
+      "Title": "Ethics and Sustainable Development for Engineers, 1.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/II2210?startterm=VT2026&l=en",
+      "ECTS": 1.5,
+      "Subject": "II"
+    },
+    {
+      "Code": "IK2221",
+      "Title": "Networked Systems for Machine Learning, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IK2221?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IK"
+    },
+    {
+      "Code": "IK2227",
+      "Title": "Network Systems with Edge or Cloud Datacenters, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IK2227?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IK"
+    },
+    {
+      "Code": "IK2507",
+      "Title": "Wireless Communication Systems, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IK2507?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IK"
+    },
+    {
+      "Code": "IK2508",
+      "Title": "Wireless Transmission Techniques, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IK2508?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IK"
+    },
+    {
+      "Code": "IS2202",
+      "Title": "Computer Systems Architecture, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IS2202?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IS"
+    }
+  ]
+}

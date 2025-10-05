@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+from utils import load_cached_courses, save_courses_to_cache
+
+
 # --- Setup Selenium Driver ---
 def init_driver():
     chrome_options = Options()
@@ -26,8 +29,29 @@ def fetch_page(link: str) -> str:
         driver.quit()
     return html
 
-@st.cache_data()
+@st.cache_data(show_spinner=False)
 def scrape_courses(url: str) -> pd.DataFrame:
+    # Extract semester from URL
+    semester = "Unknown"
+    if "semesters=" in url:
+        semester = url.split("semesters=")[1].split("&")[0]
+        
+    # Extract subject from URL
+    subject = "Unknown"
+    if "department=" in url:
+        subject = url.split("department=")[1][:2]
+        
+    # Extract edu_level from URL
+    edu_level = "Unknown"
+    if "eduLevel=" in url:
+        edu_level = url.split("eduLevel=")[1].split("&")[0]
+    
+    # Try to load from cache first
+    cached_courses = load_cached_courses(semester, edu_level, subject)
+    if cached_courses:
+        return pd.DataFrame(cached_courses)
+    
+    # If not in cache or expired, scrape the data
     driver = init_driver()
     driver.get(url)
     time.sleep(3)  # let the JS load course cards
@@ -66,13 +90,28 @@ def scrape_courses(url: str) -> pd.DataFrame:
             except Exception as e:
                 print(f"Error scraping {link}: {e}")
 
+        # Extract ECTS credits from title
+        ects = 0.0
+        try:
+            title_parts = title.split()
+            ects = float(title_parts[-2])
+        except (ValueError, IndexError):
+            pass
+            
+        # Extract subject from course code
+        course_subject = code.split(" ")[0][:2] if code != "N/A" else subject
+
         courses.append({
             "Code": code,
             "Title": title,
             "Semester": semester,
             "Periods": ", ".join(periods) if periods else "Unknown",
             "Has Final": has_final,
-            "Link": link
+            "Link": link,
+            "ECTS": ects,
+            "Subject": course_subject
         })
 
+    # Save to cache before returning
+    save_courses_to_cache(semester, edu_level, subject, courses)
     return pd.DataFrame(courses)

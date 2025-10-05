@@ -1,0 +1,255 @@
+{
+  "timestamp": "2025-10-05T15:54:03.790689",
+  "courses": [
+    {
+      "Code": "SF250X",
+      "Title": "Degree Project in Scientific Computing, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF250X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2525",
+      "Title": "Computational Methods for Stochastic Differential Equations and Machine Learning, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2525?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2526",
+      "Title": "Numerical algorithms for data-intensive science, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2526?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2528",
+      "Title": "Numerical Methods for Differential Equations II, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2528?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF259X",
+      "Title": "Degree Project in Scientific Computing, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF259X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2701",
+      "Title": "Financial Mathematics, Basic Course, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2701?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2717",
+      "Title": "Mathematics, Advanced Course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2717?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2718",
+      "Title": "Mathematics for Chemists, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2718?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2723",
+      "Title": "Topics in Mathematics III, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2723?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2724",
+      "Title": "Topics in Mathematics IV, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2724?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2728",
+      "Title": "Number Theory, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2728?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2745",
+      "Title": "Advanced Complex Analysis, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2745?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF278X",
+      "Title": "Degree Project in Mathematics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF278X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF280X",
+      "Title": "Degree Project in Optimization and Systems Theory, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF280X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2812",
+      "Title": "Applied Linear Optimization, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2812?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF281X",
+      "Title": "Degree Project in Systems Engineering, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF281X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2822",
+      "Title": "Applied Nonlinear Optimization, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2822?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2842",
+      "Title": "Geometric Control Theory, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2842?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF290X",
+      "Title": "Degree Project in Mathematical Statistics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF290X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF291X",
+      "Title": "Degree Project in Financial Mathematics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF291X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2930",
+      "Title": "Regression Analysis, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2930?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2943",
+      "Title": "Time Series Analysis, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2943?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2955",
+      "Title": "Computer Intensive Methods in Mathematical Statistics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2955?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2971",
+      "Title": "Martingales and Stochastic Integrals, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2971?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2972",
+      "Title": "Game Theory, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2972?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    }
+  ]
+}

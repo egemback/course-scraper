@@ -37,10 +37,10 @@ if "df" not in st.session_state:
     edu_level_code = edu_level_map[edu_level]
 
     # Subject code selection: allow multiple predefined codes and extra custom codes
-    subject_options = ["ME", "SF", "DA"]
-    selected_subjects = st.multiselect("Subject Codes (choose one or more)", subject_options, default=["ME"])
+    subject_options = ["ME", "SF", "SK", "SG", "JH"]
+    selected_subjects = st.multiselect("Subject Codes (choose one or more)", subject_options)
 
-    st.markdown("Or add custom subject codes (comma-separated), e.g. EL,EE")
+    st.markdown("Or add custom subject codes (comma-separated), e.g. ME,SF")
     custom_subjects_raw = st.text_input("Custom subject codes:", "")
 
     # Normalize and merge subject codes into a comma-separated department parameter
@@ -56,6 +56,10 @@ if "df" not in st.session_state:
         urls.append(f"{custom_base_url}&department={subject}")
 
     if st.button("Scrape Courses"):
+        if not all_subjects:
+            st.warning("Please select at least one subject code or enter a custom subject code.")
+            st.stop()
+            
         with st.spinner("Scraping courses (cached where possible)..."):
             try:
                 df = pd.DataFrame()
@@ -64,9 +68,11 @@ if "df" not in st.session_state:
                     
                 if df.empty:
                     st.session_state.error = True
-                    st.rerun()
+                else:
+                    st.session_state.df = df
+                    st.session_state.all_subjects = all_subjects
                     
-                st.session_state.df = df
+                st.rerun()
             except Exception as e:
                 print(f"Error during scraping: {e}")
                 st.session_state.error = True
@@ -87,6 +93,20 @@ else:
 
         final_filter = st.selectbox("Has Final Exam?", ["All", "Yes", "No"])
 
+        # Subject filter
+        subject_filter = st.multiselect("Subject", st.session_state.all_subjects)
+
+        # Add ECTS credits slider
+        ects_min = float(df["ECTS"].min())
+        ects_max = float(df["ECTS"].max())
+        ects_range = st.slider(
+            "ECTS Credits",
+            min_value=ects_min,
+            max_value=ects_max,
+            value=(ects_min, ects_max),
+            step=1.5  # Common step for ECTS credits
+        )
+        
         subject_codes = sorted(set(code.split(" ")[0] for code in df["Code"]))
         
         if st.button("New Search"):
@@ -94,7 +114,7 @@ else:
             st.rerun()
 
     # Apply filters
-    filtered = apply_filters(df, semester_filter, final_filter, period_filter)
+    filtered = apply_filters(df, semester_filter, final_filter, period_filter, ects_range, subject_filter)
 
     st.success(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
 
