@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-10-05T16:35:29.729517",
+  "courses": [
+    {
+      "Code": "SG1102",
+      "Title": "Mechanics, Smaller Course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1102?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1109",
+      "Title": "Mechanics, 8.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1109?startterm=VT2026&l=en",
+      "ECTS": 8.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1112",
+      "Title": "Mechanics I, 9.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1112?startterm=VT2026&l=en",
+      "ECTS": 9.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1115",
+      "Title": "Particle Dynamics with project, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1115?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1117",
+      "Title": "Engineering Mechanics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1117?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1130",
+      "Title": "Mechanics I, 9.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1130?startterm=VT2026&l=en",
+      "ECTS": 9.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1133",
+      "Title": "Mechanics I, 9.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1133?startterm=VT2026&l=en",
+      "ECTS": 9.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1216",
+      "Title": "Thermodynamics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1216?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1217",
+      "Title": "Fluid Mechanics, Basic Course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1217?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SG"
+    },
+    {
+      "Code": "SG1301",
+      "Title": "Mechanics, Addition Course, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SG1301?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "SG"
+    }
+  ]
+}

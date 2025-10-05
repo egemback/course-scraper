@@ -1,0 +1,265 @@
+{
+  "timestamp": "2025-10-05T16:34:43.913606",
+  "courses": [
+    {
+      "Code": "SF100X",
+      "Title": "Degree Project in Applied Mathematics and Industrial Economics, First Cycle, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF100X?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1523",
+      "Title": "Analytical and Numerical Methods for Differential Equations, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1523?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1525",
+      "Title": "Basic Course in Numerical Methods, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1525?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1546",
+      "Title": "Numerical Methods, Basic Course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1546?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1547",
+      "Title": "Numerical Methods, Basic Course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1547?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1550",
+      "Title": "Numerical Methods, basic course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1550?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1610",
+      "Title": "Discrete Mathematics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1610?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1625",
+      "Title": "Calculus in One Variable, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1625?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1626",
+      "Title": "Calculus in Several Variables, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1626?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1633",
+      "Title": "Differential Equations I, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1633?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1674",
+      "Title": "Multivariable Calculus, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1674?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1676",
+      "Title": "Differential Equations with Applications, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1676?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1677",
+      "Title": "Foundations of Analysis, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1677?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1678",
+      "Title": "Groups and Rings, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1678?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1679",
+      "Title": "Discrete Mathematics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1679?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1685",
+      "Title": "Calculus in One Variable, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1685?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1687",
+      "Title": "Complementary Course in Differential Equations and Transforms, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1687?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1691",
+      "Title": "Complex Analysis, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1691?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1696",
+      "Title": "Calculus in One Variable, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1696?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1697",
+      "Title": "Algebra and Geometry, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1697?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1861",
+      "Title": "Optimization, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1861?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1904",
+      "Title": "Markov Processes, Basic Course, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1904?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1920",
+      "Title": "Probability Theory and Statistics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1920?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1922",
+      "Title": "Probability Theory and Statistics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1922?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1923",
+      "Title": "Probability Theory and Statistics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1923?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF1935",
+      "Title": "Probability Theory and Statistics with Application to Machine Learning, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF1935?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    }
+  ]
+}

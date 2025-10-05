@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-10-05T16:29:49.093635",
+  "courses": [
+    {
+      "Code": "SK1117",
+      "Title": "Electromagnetism and Waves, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK1117?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    },
+    {
+      "Code": "SK1119",
+      "Title": "Thermodynamics and Statistical Physics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SK1119?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SK"
+    }
+  ]
+}

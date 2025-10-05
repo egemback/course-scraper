@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-10-05T16:32:51.732033",
+  "courses": [
+    {
+      "Code": "ME1003",
+      "Title": "Industrial Management, Basic Course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1003?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME101X",
+      "Title": "Degree Project in Industrial Engineering and Management and Technology, First Cycle, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME101X?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1041",
+      "Title": "Industrial Management for Chemistry and Biotechnology, 4.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1041?startterm=VT2026&l=en",
+      "ECTS": 4.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1043",
+      "Title": "Costing and Investment Calculation in Industrial Companies, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1043?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1044",
+      "Title": "Industrial management for Industrial Engineering, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1044?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1045",
+      "Title": "Project management for Industrial Engineering, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1045?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1046",
+      "Title": "Leadership for Industrial Engineering, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1046?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1306",
+      "Title": "Industrial Project Management, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1306?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1315",
+      "Title": "Industrial Marketing for I, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1315?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1316",
+      "Title": "Quantitative Business and Operations Analytics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1316?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME1317",
+      "Title": "Leading People and Work, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME1317?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "timestamp": "2025-10-05T16:31:59.921362",
+  "courses": [
+    {
+      "Code": "DA150X",
+      "Title": "Degree Project in Computer Science and Engineering, First Cycle, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA150X?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DA1700",
+      "Title": "Tutoring, Teaching and Learning in Computer Science Education, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DA1700?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "DA"
+    },
+    {
+      "Code": "DD100N",
+      "Title": "Programming Techniques, Web Course, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD100N?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1301",
+      "Title": "Computer Introduction, 1.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1301?startterm=VT2026&l=en",
+      "ECTS": 1.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1320",
+      "Title": "Applied Computer Science, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1320?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1327",
+      "Title": "Fundamentals of Computer Science, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1327?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1328",
+      "Title": "Fundamentals of Computer Science for Scientific Computing, 9.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1328?startterm=VT2026&l=en",
+      "ECTS": 9.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD132U",
+      "Title": "Fundamentals of Computer Science, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD132U?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1349",
+      "Title": "Project in Introduction to Computer Science, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1349?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1354",
+      "Title": "Models and Simulation, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1354?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1366",
+      "Title": "Programming Paradigms, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1366?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1380",
+      "Title": "Java Programming for Python Programmers, 1.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1380?startterm=VT2026&l=en",
+      "ECTS": 1.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1386",
+      "Title": "Internet Programming, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1386?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1388",
+      "Title": "Program System Construction Using C++, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1388?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1395",
+      "Title": "In-depth Essay in Computer Science, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1395?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "DD1396",
+      "Title": "Parallel and Concurrent Programming in Introduction to Computer Science, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/DD1396?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "DD"
+    },
+    {
+      "Code": "EH1010",
+      "Title": "Project Course in Electrical Engineering, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EH1010?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EH"
+    },
+    {
+      "Code": "EP1100",
+      "Title": "Data Communications and Computer Networks, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP1100?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EP"
+    },
+    {
+      "Code": "EP1200",
+      "Title": "Introduction to Computing Systems Engineering, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP1200?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "EP"
+    },
+    {
+      "Code": "IA150X",
+      "Title": "Degree Project in Information and Communication Technology, First Cycle, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/IA150X?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "IA"
+    },
+    {
+      "Code": "ID1021",
+      "Title": "Algorithms and Data Structures, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ID1021?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ID"
+    },
+    {
+      "Code": "ID1217",
+      "Title": "Concurrent Programming, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ID1217?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ID"
+    },
+    {
+      "Code": "II1302",
+      "Title": "Projects and Project Methods, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/II1302?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "II"
+    },
+    {
+      "Code": "II1305",
+      "Title": "Project in Information and Communication Technology, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/II1305?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "II"
+    },
+    {
+      "Code": "II1307",
+      "Title": "Active Career, 1.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/II1307?startterm=VT2026&l=en",
+      "ECTS": 1.5,
+      "Subject": "II"
+    },
+    {
+      "Code": "II142X",
+      "Title": "Degree Project in Computer Engineering, First Cycle, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/II142X?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "II"
+    },
+    {
+      "Code": "II143X",
+      "Title": "Degree Project in Information and Communication Technology, First Cycle, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/II143X?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "II"
+    },
+    {
+      "Code": "IK1203",
+      "Title": "Networks and Communication, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IK1203?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IK"
+    },
+    {
+      "Code": "IK1332",
+      "Title": "Internet of Things, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IK1332?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IK"
+    },
+    {
+      "Code": "IV1013",
+      "Title": "Introduction to Computer Security, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/IV1013?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IV"
+    },
+    {
+      "Code": "IV1201",
+      "Title": "Design of Global Applications, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/IV1201?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IV"
+    },
+    {
+      "Code": "IV1350",
+      "Title": "Object Oriented Design, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/IV1350?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "IV"
+    }
+  ]
+}
