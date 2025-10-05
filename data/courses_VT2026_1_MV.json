@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-10-05T17:00:06.008187",
+  "courses": [
+    {
+      "Code": "MH101X",
+      "Title": "Degree Project in Materials and Process Design, First Cycle, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH101X?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH1023",
+      "Title": "Practical Gender Equality and Diversity Work in Scientific, Technical and Industrial Environments, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH1023?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH1031",
+      "Title": "Ceramic Materials, 8.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH1031?startterm=VT2026&l=en",
+      "ECTS": 8.0,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH1034",
+      "Title": "Metallic Materials, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH1034?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH1036",
+      "Title": "Materials Physics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH1036?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH1037",
+      "Title": "Fluid Mechanics and Heat Transfer, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH1037?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH1040",
+      "Title": "Material selection, 1.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH1040?startterm=VT2026&l=en",
+      "ECTS": 1.5,
+      "Subject": "MH"
+    }
+  ]
+}

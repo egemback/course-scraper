@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-10-05T16:59:10.000109",
+  "courses": [
+    {
+      "Code": "MH201X",
+      "Title": "Degree Project in Materials and Process Design, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH201X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH202X",
+      "Title": "Degree Project in Materials and Process Design, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH202X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH2051",
+      "Title": "Circular Economy for Materials Processing, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH2051?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH2058",
+      "Title": "Materials Processes II, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH2058?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH2059",
+      "Title": "Materials Structures II, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH2059?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH2060",
+      "Title": "Materials Properties II, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH2060?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "MH"
+    },
+    {
+      "Code": "MH2601",
+      "Title": "Combustion in Industrial Processes, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MH2601?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "MH"
+    }
+  ]
+}

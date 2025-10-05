@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-10-05T16:54:40.131898",
+  "courses": [
+    {
+      "Code": "MF2025",
+      "Title": "Project Work in Mechatronics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF2025?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "MF"
+    },
+    {
+      "Code": "MF2121",
+      "Title": "Mechatronic Capstone course, 18.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P2, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF2121?startterm=VT2026&l=en",
+      "ECTS": 18.0,
+      "Subject": "MF"
+    },
+    {
+      "Code": "MF2142",
+      "Title": "Applying Distributed Control for Mechatronics System, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF2142?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "MF"
+    },
+    {
+      "Code": "MF2144",
+      "Title": "Safety by Design for Mechatronics, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF2144?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "MF"
+    },
+    {
+      "Code": "MF219X",
+      "Title": "Degree Project in Embedded Control Systems, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF219X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "MF"
+    },
+    {
+      "Code": "MF2210",
+      "Title": "Frugal Innovation and Design, 3.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF2210?startterm=VT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "MF"
+    },
+    {
+      "Code": "MF2521",
+      "Title": "Advanced Machine Design Project, Part 1, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF2521?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "MF"
+    },
+    {
+      "Code": "MF2522",
+      "Title": "Systems Engineering, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/MF2522?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "MF"
+    }
+  ]
+}

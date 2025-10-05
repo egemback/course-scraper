@@ -90,6 +90,7 @@ else:
 
         periods = ["P1", "P2", "P3", "P4"]
         period_filter = st.multiselect("Period", periods)
+        exclusive_period = st.checkbox("Match periods exactly", value=False)
 
         final_filter = st.selectbox("Has Final Exam?", ["All", "Yes", "No"])
 
@@ -114,7 +115,7 @@ else:
             st.rerun()
 
     # Apply filters
-    filtered = apply_filters(df, semester_filter, final_filter, period_filter, ects_range, subject_filter)
+    filtered = apply_filters(df, semester_filter, final_filter, period_filter, exclusive_period, ects_range, subject_filter)
 
     st.success(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
 

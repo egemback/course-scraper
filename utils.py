@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "data")
 CACHE_EXPIRY_DAYS = 90  # 3 months
 
-def apply_filters(df, semester_filter, final_filter, period_filter, ects_range=None, subject_filter=None):
+def apply_filters(df, semester_filter, final_filter, period_filter, exclusive_period=False, ects_range=None, subject_filter=None):
     filtered = df.copy()
     
     if semester_filter:
@@ -17,7 +17,7 @@ def apply_filters(df, semester_filter, final_filter, period_filter, ects_range=N
         filtered = filtered[~filtered["Has Final"]]
 
     if period_filter:
-        filtered = filtered[filtered["Periods"].apply(lambda x: any(p in x for p in period_filter))]
+        filtered = filtered[filtered["Periods"].apply(lambda x: any(p in x for p in period_filter) and (len(x.split()) == len(period_filter) or not exclusive_period))]
         
     if ects_range:
         filtered = filtered[
@@ -48,7 +48,6 @@ def load_cached_courses(semester, edu_level, subject):
         # Check if cache is expired (older than 3 months)
         cache_timestamp = datetime.fromisoformat(cache_data['timestamp'])
         if datetime.now() - cache_timestamp > timedelta(days=CACHE_EXPIRY_DAYS):
-            os.remove(cache_path)
             return None
             
         return cache_data['courses']
