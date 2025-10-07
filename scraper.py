@@ -5,10 +5,13 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+from functools import lru_cache
+
 from utils import load_cached_courses, save_courses_to_cache
 
 
 # --- Setup Selenium Driver ---
+@lru_cache(maxsize=None)
 def init_driver():
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")   # headless Chrome
@@ -23,7 +26,6 @@ def fetch_page(link: str) -> str:
     driver = init_driver()
     try:
         driver.get(link)
-        time.sleep(2)  # wait for content to load
         html = driver.page_source
     finally:
         driver.quit()
@@ -39,7 +41,7 @@ def scrape_courses(url: str) -> pd.DataFrame:
     # Extract subject from URL
     subject = "Unknown"
     if "department=" in url:
-        subject = url.split("department=")[1][:2]
+        subject = url.split("department=")[1][:-1]  if "&" in url.split("department=")[1] else url.split("department=")[1].split("&")[0] 
         
     # Extract edu_level from URL
     edu_level = "Unknown"

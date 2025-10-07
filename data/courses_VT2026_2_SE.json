@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-07T11:49:58.277020",
+  "courses": [
+    {
+      "Code": "SE202X",
+      "Title": "Degree Project in Solid Mechanics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SE202X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SE"
+    },
+    {
+      "Code": "SE2121",
+      "Title": "Introduction to Biomechanics, 9.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SE2121?startterm=VT2026&l=en",
+      "ECTS": 9.0,
+      "Subject": "SE"
+    },
+    {
+      "Code": "SE2123",
+      "Title": "Testing Techniques in Solid Mechanics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SE2123?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SE"
+    },
+    {
+      "Code": "SE2134",
+      "Title": "Dynamic Problems in Solid Mechanics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SE2134?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SE"
+    },
+    {
+      "Code": "SE2139",
+      "Title": "Fracture Mechanics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SE2139?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SE"
+    }
+  ]
+}

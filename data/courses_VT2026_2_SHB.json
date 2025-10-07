@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-10-07T11:50:34.948247",
+  "courses": [
+    {
+      "Code": "SH2011",
+      "Title": "Theoretical Nuclear Physics, 6.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SH2011?startterm=VT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SH"
+    },
+    {
+      "Code": "SH204X",
+      "Title": "Degree Project in Physics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SH204X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SH"
+    },
+    {
+      "Code": "SH2302",
+      "Title": "Nuclear Physics, 8.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SH2302?startterm=VT2026&l=en",
+      "ECTS": 8.0,
+      "Subject": "SH"
+    },
+    {
+      "Code": "SH2381",
+      "Title": "Quantum Information, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SH2381?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SH"
+    },
+    {
+      "Code": "SI201X",
+      "Title": "Degree Project in Theoretical Physics, Second Cycle, 30.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P1, P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SI201X?startterm=VT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SI"
+    },
+    {
+      "Code": "SI2360",
+      "Title": "Analytical Mechanics and Classical Field Theory, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SI2360?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SI"
+    },
+    {
+      "Code": "SI2390",
+      "Title": "Relativistic Quantum Physics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SI2390?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SI"
+    },
+    {
+      "Code": "SI2400",
+      "Title": "Theoretical Particle Physics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P4",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SI2400?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SI"
+    },
+    {
+      "Code": "SI2800",
+      "Title": "Project Work in Physics, 7.5 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SI2800?startterm=VT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SI"
+    },
+    {
+      "Code": "SI2801",
+      "Title": "Physics, Project Course I, 15.0 credits",
+      "Semester": "VT2026",
+      "Periods": "P3, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SI2801?startterm=VT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "SI"
+    }
+  ]
+}
