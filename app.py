@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from scraper import scrape_courses
 from utils import apply_filters
@@ -30,30 +31,48 @@ if "df" not in st.session_state:
 
     # Semester selection (only next semester)
     semester = st.selectbox("Semester", semester_options, index=0, key="semester")
+    st.session_state.semester_filter = semester
 
     # Educational level dropdown
-    edu_level_map = {"Bachelor": "1", "Master": "2"}
-    edu_level = st.selectbox("Educational Level", ["Bachelor", "Master"], index=1)
+    edu_level_map = {"Both": "0", "Bachelor": "1", "Master": "2"}
+    edu_level = st.selectbox("Educational Level", ["Both", "Bachelor", "Master"], index=2)
     edu_level_code = edu_level_map[edu_level]
+    if edu_level_code == "0":
+        edu_level_code = ["1", "2"]
+    else:
+        edu_level_code = [edu_level_code]
+    st.session_state.edu_level_code = edu_level_code
 
     # Subject code selection: allow multiple predefined codes and extra custom codes
     subject_options = ["ME", "SF", "SK", "SG", "JH"]
-    selected_subjects = st.multiselect("Subject Codes (choose one or more)", subject_options)
+    select_all_subjects = st.checkbox("Select All Prescraped Subjects", value=False)
+    selected_subjects = st.multiselect("Subject Codes (choose one or more)", subject_options, disabled=select_all_subjects)
 
     st.markdown("Or add custom subject codes (comma-separated), e.g. ME,SF")
-    custom_subjects_raw = st.text_input("Custom subject codes:", "")
-
-    # Normalize and merge subject codes into a comma-separated department parameter
-    custom_subjects = [s.strip().upper() for s in custom_subjects_raw.split(",") if s.strip()] if custom_subjects_raw else []
-    all_subjects = selected_subjects + custom_subjects
-    all_subjects = list(set(all_subjects))  # Remove duplicates
+    custom_subjects_raw = st.text_input("Custom subject codes:", "", disabled=select_all_subjects)
+    
+    all_subjects = [[], []] if len(edu_level_code) == 2 else [[]]
+    if select_all_subjects:
+        for file in os.listdir("data"):
+            if file.endswith(".json"):
+                for i, edu_level in enumerate(edu_level_code):
+                    if edu_level in file and semester in file:
+                        subject_code = file.split("_")[3].replace(".json", "")
+                        all_subjects[i].append(subject_code)
+    else:
+        # Normalize and merge subject codes into a comma-separated department parameter
+        custom_subjects = [s.strip().upper() for s in custom_subjects_raw.split(",") if s.strip()] if custom_subjects_raw else []
+        tmp_all_subjects = selected_subjects + custom_subjects
+        all_subjects[0] = list(set(tmp_all_subjects))  # Remove duplicates
+    
 
     # Compose URL (include department param only if provided)
     base_url = "https://www.kth.se/student/kurser/sokkurs/resultat"
-    custom_base_url = f"{base_url}?semesters={semester}&eduLevel={edu_level_code}"
     urls = []
-    for subject in all_subjects:
-        urls.append(f"{custom_base_url}&department={subject}")
+    for i, edu_level in enumerate(edu_level_code):
+        custom_base_url = f"{base_url}?semesters={semester}&eduLevel={edu_level}"
+        for subject in all_subjects[i]:
+            urls.append(f"{custom_base_url}&department={subject}")
 
     if st.button("Scrape Courses"):
         if not all_subjects:
@@ -85,14 +104,16 @@ else:
     with st.sidebar:
         st.header("Filters")
 
-        semesters = df["Semester"].unique().tolist()
-        semester_filter = st.multiselect("Semester", semesters, default=semesters)
-
         periods = ["P1", "P2", "P3", "P4"]
         period_filter = st.multiselect("Period", periods)
         exclusive_period = st.checkbox("Match periods exactly", value=False)
 
         final_filter = st.selectbox("Has Final Exam?", ["All", "Yes", "No"])
+        
+        if len(st.session_state.edu_level_code) == 2:
+            edu_level_filter = st.selectbox("Educational Level", ["Both", "Bachelor", "Master"])
+        else:
+            edu_level_filter = None
 
         # Subject filter
         subject_filter = st.multiselect("Subject", st.session_state.all_subjects)
@@ -115,16 +136,26 @@ else:
             st.rerun()
 
     # Apply filters
-    filtered = apply_filters(df, semester_filter, final_filter, period_filter, exclusive_period, ects_range, subject_filter)
+    filtered = apply_filters(df, [st.session_state.semester_filter], final_filter, period_filter, exclusive_period, ects_range, edu_level_filter, subject_filter)
 
-    st.success(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
+    st.info(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
 
     # Show full table
-    st.dataframe(filtered, use_container_width=True)
+    st.dataframe(filtered, use_container_width=True, hide_index=True, column_order=["Code", "Title", "Periods", "Has Final", "ECTS"])
 
-    # Preview raw data for debugging
-    with st.expander("Raw scraped data preview"):
-        st.write(df.head())
+    # Allow user to select a course
+    selected_course = st.selectbox(
+        "Select a course to view its page",
+        options=filtered["Code"] if not filtered.empty else [],
+        index=0 if not filtered.empty else None
+    )
+
+    # Assume course page URL follows this pattern:
+    course_url = f"https://www.kth.se/student/kurser/kurs/{selected_course}"
+    st.markdown(
+        f'<a href="{course_url}" target="_blank"><button style="background-color:#4CAF50;color:white;padding:8px 16px;border:none;border-radius:4px;cursor:pointer;">Open Course Page</button></a>',
+        unsafe_allow_html=True
+    )
 
     # CSV download
     csv = filtered.to_csv(index=False).encode("utf-8")

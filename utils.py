@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "data")
 CACHE_EXPIRY_DAYS = 90  # 3 months
 
-def apply_filters(df, semester_filter, final_filter, period_filter, exclusive_period=False, ects_range=None, subject_filter=None):
+def apply_filters(df, semester_filter, final_filter, period_filter, exclusive_period=False, ects_range=None, edu_level_filter=None, subject_filter=None):
     filtered = df.copy()
     
     if semester_filter:
@@ -24,6 +24,10 @@ def apply_filters(df, semester_filter, final_filter, period_filter, exclusive_pe
             (filtered["ECTS"] >= ects_range[0]) & 
             (filtered["ECTS"] <= ects_range[1])
         ]
+        
+    if edu_level_filter and edu_level_filter != "Both":
+        level_map = {"Bachelor": 1, "Master": 2}
+        filtered = filtered[filtered["Code"].apply(lambda x: int(x[2]) == level_map[edu_level_filter])]
         
     if subject_filter:
         filtered = filtered[filtered["Subject"].isin(subject_filter)]
