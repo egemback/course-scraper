@@ -55,9 +55,11 @@ if "df" not in st.session_state:
     if select_all_subjects:
         for file in os.listdir("data"):
             if file.endswith(".json"):
-                if semester in file and file.split("_")[2] in edu_level_code:
+                edu_level_in_file = file.split("_")[2]
+                if semester in file and edu_level_in_file in edu_level_code:
                     subject_code = file.split("_")[3].replace(".json", "")
-                    all_subjects[0].append(subject_code) if len(edu_level_code) == 1 else all_subjects[int(file.split("_")[2]) - 1].append(subject_code)
+                    index = 0 if len(edu_level_code) == 1 else int(edu_level_in_file) - 1
+                    all_subjects[index].append(subject_code)
     else:
         # Normalize and merge subject codes into a comma-separated department parameter
         custom_subjects = [s.strip().upper() for s in custom_subjects_raw.split(",") if s.strip()] if custom_subjects_raw else []
