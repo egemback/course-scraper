@@ -117,7 +117,8 @@ else:
             edu_level_filter = None
 
         # Subject filter
-        subject_filter = st.multiselect("Subject", st.session_state.all_subjects)
+        subject_filters = sorted(set(sub for sublist in st.session_state.all_subjects for sub in sublist))
+        subject_filter = st.multiselect("Subject", subject_filters)
 
         # Add ECTS credits slider
         ects_min = float(df["ECTS"].min())
