@@ -5,8 +5,11 @@ from datetime import datetime, timedelta
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "data")
 CACHE_EXPIRY_DAYS = 90  # 3 months
 
-def apply_filters(df, semester_filter, final_filter, period_filter, exclusive_period=False, ects_range=None, edu_level_filter=None, subject_filter=None):
+def apply_filters(df, semester_filter, final_filter, period_filter, exclusive_period=False, ects_range=None, edu_level_filter=None, subject_filter=None, search_query=None):
     filtered = df.copy()
+    
+    if search_query:
+        filtered = filtered[filtered.apply(lambda row: search_query in row["Title"].lower() or search_query in row["Code"].lower(), axis=1)]
     
     if semester_filter:
         filtered = filtered[filtered["Semester"].isin(semester_filter)]

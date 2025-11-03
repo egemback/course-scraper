@@ -64,13 +64,14 @@ if "df" not in st.session_state:
         # Normalize and merge subject codes into a comma-separated department parameter
         custom_subjects = [s.strip().upper() for s in custom_subjects_raw.split(",") if s.strip()] if custom_subjects_raw else []
         tmp_all_subjects = selected_subjects + custom_subjects
-        all_subjects[0] = list(set(tmp_all_subjects))  # Remove duplicates
-    
+        for i in range(len(edu_level_code)):
+            all_subjects[i] = list(set(tmp_all_subjects))    
 
     # Compose URL (include department param only if provided)
     base_url = "https://www.kth.se/student/kurser/sokkurs/resultat"
     urls = []
     for i, edu_level in enumerate(edu_level_code):
+        print(f"Preparing URLs for edu level code: {edu_level}")
         custom_base_url = f"{base_url}?semesters={semester}&eduLevel={edu_level}"
         for subject in all_subjects[i]:
             urls.append(f"{custom_base_url}&department={subject}")
@@ -84,6 +85,7 @@ if "df" not in st.session_state:
             try:
                 df = pd.DataFrame()
                 for url in urls:
+                    print(f"Scraping URL: {url}")
                     df = pd.concat([df, scrape_courses(url)], ignore_index=True)
                     
                 if df.empty:
@@ -136,11 +138,23 @@ else:
         if st.button("New Search"):
             del st.session_state.df
             st.rerun()
+            
+    # Search bar filter
+    search_query = st.text_input("Search Courses", "").strip().lower()
 
     # Apply filters
-    filtered = apply_filters(df, [st.session_state.semester_filter], final_filter, period_filter, exclusive_period, ects_range, edu_level_filter, subject_filter)
+    filtered = apply_filters(
+        df, 
+        semester_filter=[st.session_state.semester_filter], 
+        final_filter=final_filter, 
+        period_filter=period_filter, 
+        exclusive_period=exclusive_period, 
+        ects_range=ects_range, 
+        edu_level_filter=edu_level_filter, 
+        subject_filter=subject_filter,
+        search_query=search_query)
 
-    st.info(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
+    # st.info(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
 
     # Show full table
     st.dataframe(filtered, use_container_width=True, hide_index=True, column_order=["Code", "Title", "Periods", "Has Final", "ECTS"])
