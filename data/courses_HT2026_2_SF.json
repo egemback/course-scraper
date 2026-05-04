@@ -1,0 +1,345 @@
+{
+  "timestamp": "2026-05-04T22:48:16.660831",
+  "courses": [
+    {
+      "Code": "SF250X",
+      "Title": "Degree Project in Scientific Computing, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2, P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF250X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF250X",
+      "Title": "Degree Project in Scientific Computing, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF250X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2524",
+      "Title": "Matrix Computations for Large-scale Systems, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2524?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2527",
+      "Title": "Numerical Methods for Differential Equations I , 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2527?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2529",
+      "Title": "Inverse Problems, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2529?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2565",
+      "Title": "Program Construction in C++ for Scientific Computing, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2565?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF259X",
+      "Title": "Degree Project in Scientific Computing, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF259X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2719",
+      "Title": "The History of Mathematics, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2719?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2725",
+      "Title": "The History of Mathematics, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2725?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2741",
+      "Title": "Enumerative Combinatorics, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2741?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2743",
+      "Title": "Advanced Real Analysis I, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2743?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF278X",
+      "Title": "Degree Project in Mathematics, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2, P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF278X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF278X",
+      "Title": "Degree Project in Mathematics, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF278X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF280X",
+      "Title": "Degree Project in Optimization and Systems Theory, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2, P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF280X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF280X",
+      "Title": "Degree Project in Optimization and Systems Theory, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF280X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF281X",
+      "Title": "Degree Project in Systems Engineering, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2, P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF281X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF281X",
+      "Title": "Degree Project in Systems Engineering, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF281X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2832",
+      "Title": "Mathematical Systems Theory, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2832?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2852",
+      "Title": "Optimal Control Theory, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2852?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2863",
+      "Title": "Systems Engineering, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2863?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2866",
+      "Title": "Applied Systems Engineering, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2866?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2868",
+      "Title": "Systems Engineering, Business and Management, Part 1, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2868?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF290X",
+      "Title": "Degree Project in Mathematical Statistics, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2, P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF290X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF290X",
+      "Title": "Degree Project in Mathematical Statistics, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF290X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF291X",
+      "Title": "Degree Project in Financial Mathematics, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2, P3",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF291X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF291X",
+      "Title": "Degree Project in Financial Mathematics, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF291X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2935",
+      "Title": "Modern Methods of Statistical Learning, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2935?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2940",
+      "Title": "Probability Theory, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2940?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2942",
+      "Title": "Portfolio Theory and Risk Management, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2942?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2944",
+      "Title": "Foundations of Probability Theory, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2944?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2956",
+      "Title": "Topological Data Analysis, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2956?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2957",
+      "Title": "Statistical Machine Learning, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2957?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2975",
+      "Title": "Financial Derivatives, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2975?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    },
+    {
+      "Code": "SF2980",
+      "Title": "Risk Management, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/SF2980?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "SF"
+    }
+  ]
+}

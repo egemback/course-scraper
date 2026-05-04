@@ -1,0 +1,415 @@
+{
+  "timestamp": "2026-05-04T22:45:19.635703",
+  "courses": [
+    {
+      "Code": "ME2003",
+      "Title": "Research Methods in Industrial Engineering and Management, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2003?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2004",
+      "Title": "Research Methods in Industrial Engineering and Management, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2004?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME200X",
+      "Title": "Degree Project in Industrial Economics and Management, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME200X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2016",
+      "Title": "Project Management: Leadership and Control, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2016?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2053",
+      "Title": "Logistics & Supply Chain Management, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2053?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2064",
+      "Title": "Finance and Control in Industrial Organizations, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2064?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2065",
+      "Title": "Operations and Supply Chain Strategy, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2065?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2069",
+      "Title": "Managing Research and Innovation, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2069?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2072",
+      "Title": "Entrepreneurship for Engineers, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2072?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2075",
+      "Title": "Leadership and Power in Industrial Organisations: Perspectives of Gender and Diversity, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2075?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2086",
+      "Title": "Global Energy Markets and Systems in Transition, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2086?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2088",
+      "Title": "Brand Portfolio Management, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2088?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2094",
+      "Title": "Internet Marketing, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2094?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2096",
+      "Title": "ICT Innovation Study Project, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2096?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2097",
+      "Title": "Strategic Management Control, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2097?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME210X",
+      "Title": "Degree Project in Industrial Economics and Management, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME210X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME211X",
+      "Title": "Degree Project in Industrial Economics and Management, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME211X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2188",
+      "Title": "Luxury Strategy and Business Reality, 3.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2188?startterm=HT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2313",
+      "Title": "Financial Mathematics, Business and Management, 15.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2313?startterm=HT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2314",
+      "Title": "Systems Engineering, Business and Management, Part 2, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2314?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2321",
+      "Title": "Engineering and Global Challenges, 3.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2321?startterm=HT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2322",
+      "Title": "Industrial transformation and technological innovation, 3.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2322?startterm=HT2026&l=en",
+      "ECTS": 3.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2501",
+      "Title": "Perspectives on Industrial Management, 6.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2501?startterm=HT2026&l=en",
+      "ECTS": 6.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2502",
+      "Title": "Change Project in Industrial Management, 12.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2502?startterm=HT2026&l=en",
+      "ECTS": 12.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2620",
+      "Title": "Technology-based Entrepreneurship, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2620?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2621",
+      "Title": "Business Opportunity Development, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2621?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2622",
+      "Title": "Innovative Business Models, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2622?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2625",
+      "Title": "Challenge-driven technology-based entrepreneurship, 15.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2625?startterm=HT2026&l=en",
+      "ECTS": 15.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2626",
+      "Title": "Finance for Technology based Entrepreneurship, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2626?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME270X",
+      "Title": "Degree Project in the Economics of Innovation and Growth, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME270X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME271X",
+      "Title": "Degree Project in Economics of Innovation and Growth, Second Cycle, 30.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME271X?startterm=HT2026&l=en",
+      "ECTS": 30.0,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2722",
+      "Title": "Green Economics, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2722?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2814",
+      "Title": "Ideation- Creating Your Own Company, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2814?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2815",
+      "Title": "Business Model Innovation, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2815?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2816",
+      "Title": "Execution- Running Your Own Company, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2816?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2817",
+      "Title": "Growth- Managing Your Firm, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2817?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2818",
+      "Title": "Design Thinking, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2818?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2826",
+      "Title": "Social Entrepreneurship, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2826?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2828",
+      "Title": "Entrepreneurship in Developing Countries, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2828?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2835",
+      "Title": "Policy Ventures: Innovation in Public Organizations, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2835?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    },
+    {
+      "Code": "ME2839",
+      "Title": "Startup Essentials, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/ME2839?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "ME"
+    }
+  ]
+}

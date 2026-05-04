@@ -11,7 +11,7 @@ from utils import load_cached_courses, save_courses_to_cache
 
 
 # --- Setup Selenium Driver ---
-@lru_cache(maxsize=None)
+#@lru_cache(maxsize=None)
 def init_driver():
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")   # headless Chrome
@@ -35,8 +35,10 @@ def fetch_page(link: str) -> str:
 def scrape_courses(url: str) -> pd.DataFrame:
     # Extract semester from URL
     semester = "Unknown"
-    if "semesters=" in url:
-        semester = url.split("semesters=")[1].split("&")[0]
+    if "period=" in url:
+        period = url.split("period=")[1].split("&")[0]
+        year = period.split("%")[0]
+        semester = f"HT{year}" if "P1" in period or "P2" in period else f"VT{year}"
         
     # Extract subject from URL
     subject = "Unknown"
@@ -69,10 +71,6 @@ def scrape_courses(url: str) -> pd.DataFrame:
         title = c.select_one("h3").get_text(strip=True) if c.select_one("h3") else "N/A"
         link = base + c.select_one("div.course-link > a")["href"] if c.select_one("div.course-link > a") else None
 
-        semester = "Unknown"
-        if "semesters=" in url:
-            semester = url.split("semesters=")[1].split("&")[0]
-
         # Extract periods directly from card if available
         periods = []
         text = c.select_one("span.course-period").get_text(strip=True)
@@ -86,7 +84,7 @@ def scrape_courses(url: str) -> pd.DataFrame:
             try:
                 html = fetch_page(link)
                 d_soup = BeautifulSoup(html, "html.parser")
-                text = d_soup.get_text(" ", strip=True)
+                text = d_soup.get_text("", strip=True)
                 if "TEN" in text:
                     has_final = True
             except Exception as e:

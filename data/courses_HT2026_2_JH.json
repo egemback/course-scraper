@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-05-04T22:10:00.647784",
+  "courses": [
+    {
+      "Code": "EP278U",
+      "Title": "Digital Forensics and Incident Response, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1",
+      "Has Final": true,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP278U?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EP"
+    },
+    {
+      "Code": "EP282U",
+      "Title": "Ethical Hacking, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP282U?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EP"
+    },
+    {
+      "Code": "EP283U",
+      "Title": "Ethical Hacking, 7.5 credits",
+      "Semester": "HT2026",
+      "Periods": "P1, P4",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP283U?startterm=HT2026&l=en",
+      "ECTS": 7.5,
+      "Subject": "EP"
+    },
+    {
+      "Code": "EP284U",
+      "Title": "Ethical Hackning, project assignment, 4.0 credits",
+      "Semester": "HT2026",
+      "Periods": "P2",
+      "Has Final": false,
+      "Link": "https://www.kth.se/student/kurser/kurs/EP284U?startterm=HT2026&l=en",
+      "ECTS": 4.0,
+      "Subject": "EP"
+    }
+  ]
+}

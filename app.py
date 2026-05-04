@@ -72,7 +72,11 @@ if "df" not in st.session_state:
     urls = []
     for i, edu_level in enumerate(edu_level_code):
         print(f"Preparing URLs for edu level code: {edu_level}")
-        custom_base_url = f"{base_url}?semesters={semester}&eduLevel={edu_level}"
+        
+        periods = ("P1","P2") if semester[:2] == "HT" else ("P3","P4")
+        year = semester[2:]
+
+        custom_base_url = f"{base_url}?period={year}%3A{periods[0]}&period={year}%3A{periods[1]}&eduLevel={edu_level}"
         for subject in all_subjects[i]:
             urls.append(f"{custom_base_url}&department={subject}")
 
@@ -154,7 +158,7 @@ else:
         subject_filter=subject_filter,
         search_query=search_query)
 
-    # st.info(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
+    st.info(f"Showing {len(filtered)} courses (from {len(df)} total scraped).")
 
     # Show full table
     st.dataframe(filtered, use_container_width=True, hide_index=True, column_order=["Code", "Title", "Periods", "Has Final", "ECTS"])
